@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCXdDD0fZgPSWyeA1OBcOIUxZZ3CuU7huM",
+    apiKey: "AIzaSyBrMvk1B61-BEX72IZTbIFoK5CtPxFRfpE",
     authDomain: "s53r5t.firebaseapp.com",
     databaseURL: "https://s53r5t-default-rtdb.firebaseio.com",
     projectId: "s53r5t",
