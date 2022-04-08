@@ -33,7 +33,7 @@ document.getElementById("send").addEventListener("click", function () {
         function complete() {
           document.getElementById(
             "uploading"
-          ).innerHTML += `${files[i].name} upoaded <br />`;
+          ).innerHTML += `${files[i].name} uploaded <br/>`;
         }
       );
     }
