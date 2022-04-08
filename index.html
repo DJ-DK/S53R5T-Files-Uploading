@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>S53R5T Files Upload</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <div class="heading">Upload Files</div>
+        <br />
+
+        <div class="input-box">
+            <input type="file" id="files" multiple /><br /><br />
+        </div>
+
+        <div class="button">
+            <p id="send">Upload</p>
+        </div>
+
+        <p id="uploading"></p>
+
+        <progress value="0" max="100" id="progress"></progress>
+
+        <br />
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
